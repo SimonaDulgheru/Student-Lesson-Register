@@ -15,7 +15,7 @@ Pass a few students name in Student Class.
 ![image](https://user-images.githubusercontent.com/48987979/70456732-9f6f8280-1aa6-11ea-8ed0-d97e841c48e0.png)
 
 
-Record the attendance of students in markOnTime, markLate and markAbsent methods. Will generate a Student Attendenace Summary.  
+Record the attendance of students in markOnTime, markLate and markAbsent methods. Will generate a Student Attendance Summary.  
 
 ![image](https://user-images.githubusercontent.com/48987979/70457011-30def480-1aa7-11ea-9ce4-27c00f2b02c3.png)
 
@@ -25,7 +25,7 @@ Record the attendance of students in markOnTime, markLate and markAbsent methods
 
 # How it looks
 
-The application will display the Lesson, the Teacher who conducted the lesson and the students attendance once you run index.js 
+The application will display the lesson, the teacher who conducted the lesson and the students attendance once you run index.js 
 
 The application also includes boxen, to display a box for lesson and teacher and attendance. 
 
