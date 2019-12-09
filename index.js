@@ -2,24 +2,32 @@
 const Teacher = require(`./teacher`);
 const Student = require(`./student`);
 const Lesson = require(`./lesson`);
-var unidecode = require('unidecode');
 
-const teacher1 = new Teacher('Maths', 'Billy');
-const student1 = new Student('Bilaal');
-const student2 = new Student('Nath');
-const student3 = new Student('Tom');
-const mathsLesson = new Lesson(Teacher, [
+
+const teacher1 = new Teacher('Node.js', 'Billy');
+
+const student1 = new Student('Andreas');
+const student2 = new Student('Dan');
+const student3 = new Student(`Bob`);
+const student4 = new Student(`Nuimar`);
+const student5 = new Student(`Brad`);
+const nodeLesson = new Lesson(teacher1, [
     student1,
     student2,
     student3,
+    student4,
+    student5,
+    
 ]);
-mathsLesson.markOnTime([
+nodeLesson.markOnTime([
     student1,
+    
 ]);
-mathsLesson.markLate([
-    student2,
+nodeLesson.markLate([
+    student3,
+  
 ]);
-mathsLesson.outputSummary();
+nodeLesson.outputSummary();
 
 
 
